@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FrameLayout">
+
+    <Button
+        android:id="@+id/button"
+        android:text="Frame Layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="512dp"
+        />
+    <ImageView
+        android:layout_width="192dp"
+        android:layout_height="192dp"
+        android:background="@drawable/sicat"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="256dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Esto es un TextView dentro de un FrameLayout"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="630dp"
+        />
+</FrameLayout>

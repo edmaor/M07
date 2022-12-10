@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">M07</string>
+    <string name="constraint_layout">Constraint Layout</string>
+    <string name="last">Last</string>
+    <string name="next">next</string>
+    <string name="lov">🤍</string>
+    <string name="sicat_image">sicat_image</string>
+    <string name="refresh">⬆️ REFRESH ⬆️</string>
+    <string name="this_is_a_textview">This is a TextView</string>
+</resources>
