@@ -19,4 +19,11 @@
     <string name="tablelayout_text">TextView in a TableLayout</string>
     <string name="table_layout">Table Layout</string>
     <string name="sfx">SFX</string>
+    <string name="radio_check">Radio Check!</string>
+    <string name="extended_buttons">Extended buttons</string>
+    <string name="edu">Edu</string>
+    <string name="victor">Victor</string>
+    <string name="alex">Alex</string>
+    <string name="submit">Submit</string>
+    <string name="show_layouts">Show Layouts</string>
 </resources>
