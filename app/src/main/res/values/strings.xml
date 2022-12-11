@@ -7,4 +7,16 @@
     <string name="sicat_image">sicat_image</string>
     <string name="refresh">⬆️ REFRESH ⬆️</string>
     <string name="this_is_a_textview">This is a TextView</string>
+    <string name="like">❤️</string>
+    <string name="linear_layout">Linear Layout</string>
+    <string name="linearlayout_text">This is a TextView in a LinearLayout</string>
+    <string name="grid_layout">Grid Layout</string>
+    <string name="gridlayout_text">TextView in a GridLayout</string>
+    <string name="frame_layout">Frame Layout</string>
+    <string name="framelayout_text">Esto es un TextView dentro de un FrameLayout</string>
+    <string name="relative_layout">Relative Layout</string>
+    <string name="relativelayout_text">TextView in a RelativeLayout</string>
+    <string name="tablelayout_text">TextView in a TableLayout</string>
+    <string name="table_layout">Table Layout</string>
+    <string name="sfx">SFX</string>
 </resources>

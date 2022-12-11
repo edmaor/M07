@@ -28,7 +28,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        />
+        android:contentDescription="@string/sicat_image" />
     <TextView
         android:id="@+id/constraint_text"
         android:text="@string/this_is_a_textview"

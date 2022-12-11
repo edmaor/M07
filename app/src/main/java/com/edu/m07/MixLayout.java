@@ -14,12 +14,8 @@ public class MixLayout extends AppCompatActivity {
         setContentView(R.layout.activity_mix_layout);
 
         Button btn = findViewById(R.id.btn_refresh);
+        Button btns = findViewById(R.id.btn_switch);
         Button btn1 = findViewById(R.id.btn1);
-        Button btn2 = findViewById(R.id.btn2);
-        Button btn3_1 = findViewById(R.id.btn3_1);
-        Button btn3_2 = findViewById(R.id.btn3_2);
-        btn.setOnClickListener(view -> {
-            startActivity(new Intent(this, FrameLayout.class));
-        });
+        btn.setOnClickListener(view -> startActivity(new Intent(this, FrameLayout.class)));
     }
 }
