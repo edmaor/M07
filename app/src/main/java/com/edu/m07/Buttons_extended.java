@@ -11,7 +11,7 @@ import android.widget.CheckBox;
 import android.widget.RadioGroup;
 import android.widget.TextView;
 
-public class buttons_extended extends AppCompatActivity {
+public class Buttons_extended extends AppCompatActivity {
     private String signer = null;
     private String options = null;
     private int opts = 0;
