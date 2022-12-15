@@ -6,15 +6,19 @@ import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.RadioGroup;
+import android.widget.Spinner;
 import android.widget.TextView;
 
-public class Buttons_extended extends AppCompatActivity {
+public class Buttons_extended extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
     private String signer = null;
     private String options = null;
     private int opts = 0;
+    private String spinnerText = null;
 
     public String checkSigner(){
         if (signer == null) signer = "UNSIGNED";
@@ -76,5 +80,24 @@ public class Buttons_extended extends AppCompatActivity {
                     break;
             }
         });
+
+        // SPINNER
+        Spinner spinner = findViewById(R.id.course_spinner);
+        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,R.array.courses_array, R.layout.spinner_res);
+        adapter.setDropDownViewResource(R.layout.spinner_res);
+        spinner.setAdapter(adapter);
+        spinner.setOnItemSelectedListener(this);
+
+    }
+    //Spinner OnSelect
+    @Override
+    public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+        spinnerText = (String) parent.getItemAtPosition(position);
+        TextView spinnerTextView = findViewById(R.id.itemTextView);
+        spinnerTextView.setText(spinnerText);
+    }
+
+    @Override
+    public void onNothingSelected(AdapterView<?> parent) {
     }
 }

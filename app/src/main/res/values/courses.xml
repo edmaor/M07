@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="courses_array">
+        <item>C</item>
+        <item>C++</item>
+        <item>C#</item>
+        <item>HTML</item>
+        <item>Java</item>
+        <item>Kotlin</item>
+        <item>MongoDB</item>
+        <item>Python</item>
+        <item>SQL</item>
+    </string-array>
+</resources>

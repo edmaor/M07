@@ -23,14 +23,14 @@
         android:orientation="vertical"
         android:gravity="center_horizontal"
         android:background="@drawable/formbg">
-    <EditText
-        android:id="@+id/username"
-        android:autofillHints="username"
-        android:inputType="text"
-        android:drawableStart="@drawable/usericon"
-        android:hint="@string/username"
-        android:layout_width="256dp"
-        android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/username"
+            android:autofillHints="username"
+            android:inputType="text"
+            android:drawableStart="@drawable/usericon"
+            android:hint="@string/username"
+            android:layout_width="256dp"
+            android:layout_height="wrap_content"/>
         <EditText
             android:id="@+id/name"
             android:autofillHints="name"

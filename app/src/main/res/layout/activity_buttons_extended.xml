@@ -46,6 +46,10 @@
                 android:layout_width="80dp"
                 android:layout_height="wrap_content"/>
         </RadioGroup>
+        <Spinner
+            android:id="@+id/course_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
     </LinearLayout>
     <Button
         android:id="@+id/submit"
@@ -56,6 +60,11 @@
     <TextView
         android:id="@+id/result"
         android:text=""
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/itemTextView"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 </LinearLayout>
