@@ -51,6 +51,8 @@ public class Buttons_extended extends AppCompatActivity implements AdapterView.O
         Button submit = findViewById(R.id.submit);
         TextView txtv = findViewById(R.id.result);
         RadioGroup rbg = findViewById(R.id.rbg);
+        Button music = findViewById(R.id.music);
+        music.setOnClickListener(view -> startActivity(new Intent(this, Music.class)));
 
         CheckBox cb1 = findViewById(R.id.cb1);
         CheckBox cb2 = findViewById(R.id.cb2);

@@ -33,4 +33,9 @@
     <string name="data">DATA TREATMENT</string>
     <string name="data_treatment_consent">↓ DATA TREATMENT CONSENT ↓</string>
     <string name="register_form">REGISTER FORM</string>
+    <string name="recyclerview">RecyclerView</string>
+    <string name="recycler">Recycler</string>
+    <string name="useless">Useless</string>
+    <string name="returntxt">Return</string>
+    <string name="music">music</string>
 </resources>
